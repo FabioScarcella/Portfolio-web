@@ -1,14 +1,27 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-
 body {
   background-color: #2F2F2F;
   color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  text-align: center;
 }
 
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
 
-nav {
-  background-color: #2F2F2F;
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.padding-ver{
+  padding: 5% 0;
+}
+
+.cta-container{
+  padding: 0 25%;
+}
+
+.cta-container h1{
+  margin-bottom: 3%;
 }
