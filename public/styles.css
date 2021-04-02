@@ -19,9 +19,31 @@ p {
 }
 
 .cta-container{
-  padding: 0 25%;
+  padding: 18% 25%;
 }
 
 .cta-container h1{
   margin-bottom: 3%;
+}
+
+
+.projects-div{
+  margin: 10% 0;
+}
+
+.project-link{
+  display: block;
+  color: #aaa9a9;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.project-link:hover{
+  text-decoration: underline;
+  color:#d6d6d6;
+}
+
+.projects-empty{
+  height: 432px;
 }
