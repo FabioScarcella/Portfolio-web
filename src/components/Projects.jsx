@@ -5,7 +5,11 @@ import ProjectLinks from './ProjectLinks';
 
 function Projects(){
 
-    const [mouse, setMouse] = React.useState(false);
+
+    /**If its a mobile device, list will be always visible */
+    let initialState = (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+
+    const [mouse, setMouse] = React.useState(initialState);
 
     function handleMouseEnter(){
         setMouse(true);

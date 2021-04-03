@@ -1,12 +1,13 @@
 body {
   background-color: #2F2F2F;
-  color: white;
+  color: rgb(175, 175, 175);
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   text-align: center;
 }
 
-h1{
+h1, h2{
   font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -19,7 +20,7 @@ p {
 }
 
 .cta-container{
-  padding: 18% 25%;
+  padding: 18% 15%;
 }
 
 .cta-container h1{
@@ -63,6 +64,11 @@ p {
 
 .contact-icon svg{
   font-size: 2rem;
+  color: rgb(175, 175, 175);
+}
+
+.contact-icon svg:hover{
+  color: rgb(255, 255, 255);
 }
 
 .footer{
@@ -75,4 +81,18 @@ p {
 
 .footer a{
   color: rgb(189, 189, 189);
+}
+
+/**
+From 0px to 900px
+**/
+@media (max-width: 1000px){
+  .cta-container{
+    padding: 10% 8%;
+  }
+
+  .projects-div{
+    padding: 8%;
+    margin: 0;
+  }
 }
