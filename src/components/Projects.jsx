@@ -20,16 +20,17 @@ function Projects(){
         id="projects-list"
         onMouseEnter={handleMouseEnter} 
         onMouseLeave={handleMouseLeave}>
-            <h2>Those are some of the projects I've been part of!</h2>
+            <h2>These are some of the projects I've been part of!</h2>
             <div>
-            {mouse ?  ProjectsInfo.map((p, index) => {
+            {ProjectsInfo.map((p, index) => {
                 return <ProjectLinks 
                     key={index} 
                     id={index}
                     name={p.name}
-                    link={p.url} 
-                />
-            }) : <div className="projects-empty"></div>}
+                    link={p.url}
+                    state = {mouse}
+                 />
+            })}
             </div>
         </div>
     );
