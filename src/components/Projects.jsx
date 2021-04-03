@@ -21,7 +21,7 @@ function Projects(){
         onMouseEnter={handleMouseEnter} 
         onMouseLeave={handleMouseLeave}>
             <h2>These are some of the projects I've been part of!</h2>
-            <div>
+            <div className="projects-container">
             {ProjectsInfo.map((p, index) => {
                 return <ProjectLinks 
                     key={index} 

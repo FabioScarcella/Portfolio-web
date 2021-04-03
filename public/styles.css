@@ -31,6 +31,10 @@ p {
   margin: 10% 0;
 }
 
+.projects-container{
+  margin-top: 2%;
+}
+
 .project-link{
   display: block;
   color: #aaa9a9;
@@ -42,8 +46,33 @@ p {
 .project-link:hover{
   text-decoration: underline;
   color:#d6d6d6;
-}
+} 
 
 .projects-empty{
   height: 432px;
+}
+
+.icons{
+  padding-top: 1%;
+}
+
+.contact-icon{
+  margin: auto 0.5%;
+  
+}
+
+.contact-icon svg{
+  font-size: 2rem;
+}
+
+.footer{
+  margin-top: 5%;
+}
+
+.footer p{
+  font-size: 10px;
+}
+
+.footer a{
+  color: rgb(189, 189, 189);
 }
