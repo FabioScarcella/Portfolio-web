@@ -9,7 +9,8 @@ function Introduction(){
             <p>I'm a fullstack developer who's enthusiast about coding! 
                 I have a strong knowledge about pure HTML CSS and JS, but also 
                 I'm really confortable using and learning different frameworks, such as 
-                Node.JS with Express.JS, React, Bootstrap among others.                
+                Node.JS with Express.JS, React, Bootstrap among others.
+                Besides I'm an Unity Certified developer with +1.5 years of professional experience.                
             </p>
         </div>
         </Zoom>
